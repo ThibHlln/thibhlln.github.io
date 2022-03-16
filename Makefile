@@ -25,6 +25,7 @@ clean:
 
 github_clean:
 	find . \( -type d -maxdepth 1 ! -name "." \) \
+	-and \( -type d -maxdepth 1 ! -name ".*" \) \
 	-and \( -type d -maxdepth 1 ! -name "__*" \) \
 	-exec rm -rf {} +
 	rm -f *.html *.js *.inv .buildinfo
