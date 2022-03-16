@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
+
+/* _sidebar.sass */
+.sidebar-brand-socials {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /*flex-shrink: 0;*/
+    justify-content: center;
+    /*height: 2em;*/
+    flex-direction: row;
+    gap: 0.7em;
+    margin-bottom: var(--sidebar-item-spacing-vertical);
+}
+
+.sidebar-brand-socials a {
+    text-decoration: none;
+}
+
+.sidebar-brand-socials svg {
+    width: 2em;
+    height: 2em;
+}
+
+/* _misc.sass */
+blockquote.pull-quote {
+    font-size: var(--font-size--normal);
+}
+
+/* overwrite style for links */
+article a,
+footer div.bottom-of-page div.left-details a {
+    text-decoration: none;  /* to remove text-decoration: underline */
+    border-bottom: 1px dotted;
+}
+
+article a:hover,
+footer div.bottom-of-page div.left-details a:hover {
+    text-decoration: none;  /* to remove text-decoration: underline */
+    border-bottom: 1px solid;
+}
+
+footer div.related-pages a:hover svg > use,
+footer div.related-pages a:hover div.context {
+    color: var(--color-foreground-primary);
+}
+
+footer div.related-pages a.prev-page:hover div.title,
+footer div.related-pages a.next-page:hover div.title  {
+    text-decoration: none;  /* to remove text-decoration: underline */
+}
+
+/* overwrite style for code blocks */
+.highlight pre {
+    background-color: var(--color-code-background);
+}
+
+/* override style for sphinx-panels */
+.card-text .btn-outline-primary {
+    color: var(--color-brand-content);
+    border-color: var(--color-brand-content);
+}
+
+.card-text .btn-outline-primary:hover {
+    color: white;
+    border-color: var(--color-brand-content);
+    background-color: var(--color-brand-content);
+}
+
+/* Timeline CSS (from https://github.com/choldgraf/choldgraf.github.io) */
+div.timeline div.card {
+    border: 0px;
+    background: none;
+}
+
+div.timeline div.card-header {
+    background: var(--color-background-secondary);
+    border-bottom-color: var(--color-background-border);
+}
+
+div.timeline div.card-body div.table-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+div.timeline div.card-body td {
+    border-style : hidden!important;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+div.timeline div.left div.card-body table {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+    box-shadow: none;
+}
+
+div.timeline div.left {
+    text-align: right;
+    border-right: 1px solid var(--color-background-border);
+}
+
+div.timeline div.entry.left::after, div.timeline div.entry.right::before {
+    width: 1em;
+    height: 1em;
+    background: var(--color-background-border);
+    border-radius: 50%;
+    content: "";
+    top: 1em;
+    position: absolute;
+    border: 1px var(--color-background-border) solid;
+    z-index: 999;
+}
+
+div.timeline div.entry.left::after {
+    position: relative;
+    right: -.55em;
+}
+
+div.timeline div.entry.right::before {
+    position: relative;
+    left: -.55em;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}

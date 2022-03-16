@@ -1,4 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# folders
+__build
+
+# files
+
+# # macOS specific
+.DS_Store
