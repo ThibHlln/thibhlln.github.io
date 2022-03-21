@@ -112,7 +112,6 @@ div.timeline div.entry.left::after, div.timeline div.entry.right::before {
     top: 1em;
     position: absolute;
     border: 1px var(--color-background-border) solid;
-    z-index: 999;
 }
 
 div.timeline div.entry.left::after {
