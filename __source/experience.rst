@@ -9,6 +9,23 @@ Experience
    ---
    :column: +entry left
 
+   **Research Scientist in Flood Forecasting**
+   ^^^
+
+   .. list-table::
+
+      * - `SCHAPI <https://lannuaire.service-public.fr/gouvernement/service-a-competence-nationale_179157>`_ convention
+      * - `HYDRO Team, HYCAR Research Unit, INRAE <https://webgr.inrae.fr/en/home/>`_
+      * - Antony, France
+      * - Apr 2022 -- Present
+
+   ---
+   :column: +right
+   ---
+   :column: +left
+   ---
+   :column: +entry right
+
    **Hydrological Modelling Framework Scientist**
    ^^^
 
@@ -22,11 +39,7 @@ Experience
       * - Sep 2019 -- Dec 2021
 
    ---
-   :column: +right
-   ---
-   :column: +left
-   ---
-   :column: +entry right
+   :column: +entry left
 
    **Doctorate in Environmental Hydrology**
    ^^^
@@ -39,7 +52,11 @@ Experience
       * - Nov 2015 -- May 2019
 
    ---
-   :column: +entry left
+   :column: +right
+   ---
+   :column: +left
+   ---
+   :column: +entry right
 
    **R&D Engineer in Building Sustainability**
    ^^^
@@ -52,11 +69,7 @@ Experience
       * - Nov 2012 -- Apr 2014
 
    ---
-   :column: +right
-   ---
-   :column: +left
-   ---
-   :column: +entry right
+   :column: +entry left
 
    **Master's Degree in Environmental Engineering**
    ^^^
