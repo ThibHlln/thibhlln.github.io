@@ -10,7 +10,7 @@ Peer-reviewed journal articles
    Bullock, C., Feeley, H.B., Hannigan, E., Kelly-Quinn, M. (2022).
    *A Bayesian Modelling Framework for Integration of Ecosystem Services into
    Freshwater Resources Management.*
-   Environmental Management, in press.
+   Environmental Management, 69, 781–800,
    `<https://doi.org/10.1007/s00267-022-01595-x>`_.
 
 .. pull-quote::
