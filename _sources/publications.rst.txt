@@ -6,11 +6,20 @@ Peer-reviewed journal articles
 
 .. pull-quote::
 
+   **Hallouin, T.**, Ellis, R. J., Clark, D. B., Dadson, S. J., Hughes,
+   A. G., Lawrence, B. N., Lister, G. M. S., and Polcher, J. (2022).
+   *UniFHy v0.1.1: a community modelling framework for the terrestrial
+   water cycle in Python.*
+   Geosci. Model Dev., 15, 9177–9196,
+   `<https://doi.org/10.5194/gmd-15-9177-2022>`_.
+
+.. pull-quote::
+
    Bruen, M., **Hallouin, T.**, Christie, M., Matson, R., Siwicka, E. Kelly, F.,
    Bullock, C., Feeley, H.B., Hannigan, E., Kelly-Quinn, M. (2022).
    *A Bayesian Modelling Framework for Integration of Ecosystem Services into
    Freshwater Resources Management.*
-   Environmental Management, in press.
+   Environmental Management, 69, 781–800,
    `<https://doi.org/10.1007/s00267-022-01595-x>`_.
 
 .. pull-quote::
@@ -30,16 +39,9 @@ Peer-reviewed journal articles
    `<https://doi.org/10.3390/geosciences8020045>`_.
 
 
-Preprints
----------
-
-.. pull-quote::
-
-   **Hallouin, T.**, Ellis, R. J., Clark, D. B., Dadson, S. J., Hughes,
-   A. G., Lawrence, B. N., Lister, G. M. S., and Polcher, J. (2021).
-   *UniFHy v0.1: A community framework for the terrestrial water cycle in Python.*
-   Geosci. Model Dev. Discuss., in review,
-   `<https://doi.org/10.5194/gmd-2021-419>`_.
+..
+   Preprints
+   ---------
 
 
 Scientific reports
